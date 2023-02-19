@@ -1,7 +1,6 @@
 # Charthop Better UX
 
-I wasn't too happy with Charthop's UX so I tried to fix it up. 
-
+I wasn't too happy with Charthop's UX! So I made a **Chrome Extension** that modifies its UI.
 
 ## How to Install
 
