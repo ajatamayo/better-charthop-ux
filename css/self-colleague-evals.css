@@ -1,0 +1,80 @@
+/* Self and Colleague Evals */
+
+:root {
+  --columns: 2;
+}
+
+/* Allow img zoom */
+#profile-tabs + div > div img {
+  cursor: zoom-in;
+}
+
+#profile-tabs + div > div img:active {
+  cursor: zoom-out;
+  display: block;
+  z-index: 100;
+  position: fixed;
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--background-primary);
+}
+
+/* Fix monospaced content breaking the grid */
+#profile-tabs + div > div pre {
+  white-space: break-spaces;
+}
+
+/* First Row */
+#profile-tabs + div > div:first-child .col {
+  flex-basis: auto;
+  margin: 0;
+}
+#profile-tabs + div > div:first-child .col + .col {
+  margin: 0;
+}
+
+/* Other Rows */
+#profile-tabs + div > div + div .col {
+  flex-basis: auto; /* This somehow hides the empty divs */
+  margin-bottom: 0;
+}
+
+/* Grid Container */
+#profile-tabs + div > div + div > div > div {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  grid-gap: 20px;
+  margin-bottom: 24px;
+}
+
+/* Grid Child */
+#profile-tabs + div > div + div > div > div > div {
+  margin-bottom: 0;
+}
+
+/* Add spacing between cols */
+#profile-tabs + div > div > div:nth-child(n + 2) .col + .col {
+  margin-top: 24px;
+}
+
+/* Card */
+.css-4ng2ag.css-4ng2ag {
+  background-color: #f5f1f1;
+}
+
+.css-1upilqn .css-1upilqn {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 12px;
+}

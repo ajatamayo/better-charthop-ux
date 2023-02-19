@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Open Sans", "Roboto", sans-serif;
+}
+
+body {
+  min-width: 600px;
+}
+
+.ex-17 .upper {
+  padding: 1rem;
+  background: -moz-linear-gradient(
+    right,
+    hsl(193, 43%, 45%) 0%,
+    hsl(232, 45%, 64%) 100%
+  );
+  background: -webkit-linear-gradient(
+    right,
+    hsl(193, 43%, 45%) 0%,
+    hsl(232, 45%, 64%) 100%
+  );
+  background: linear-gradient(
+    to left,
+    hsl(193, 43%, 45%) 0%,
+    hsl(232, 45%, 64%) 100%
+  );
+  position: relative;
+  padding-bottom: 7rem;
+}
+
+.ex-17 .upper p {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.ex-17 .upper .p-2 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ex-17 .upper .line {
+  width: 3.5rem;
+  margin: 0.5rem auto;
+  height: 3px;
+  background: #222;
+}
+
+.ex-17 .upper .p-3 {
+  color: #fff;
+  max-width: 40rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.ex-17 .lower {
+  background: #f1f1f1;
+  padding-top: 5rem;
+}
+
+.ex-17 .wrapper {
+  width: 90%;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.ex-17 .title {
+  font-size: 1.375rem;
+  color: #222;
+}
+
+.ex-17 .handler {
+  width: 90%;
+  margin: 0 auto;
+  right: 0;
+  height: 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.ex-17 .block {
+  background: #fff;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  transform: translateY(-50%);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ex-17 .block p {
+    text-align: left;
+}
+
+.ex-17 .block ul {
+    padding-left: 1rem;
+}
+
+.ex-17 .block p + ul {
+    padding-bottom: 0.5rem;
+}

@@ -1,0 +1,73 @@
+/* Manager Evals */
+
+#body-container > div > div > div:first-child .MuiAvatar-root {
+  z-index: 9999;
+  position: relative;
+}
+
+.MuiDialog-container h2 {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 24px;
+  position: relative;
+}
+
+.MuiDialog-container > div {
+  overflow: auto;
+}
+
+.MuiDialog-container .MuiDialogContent-root {
+  overflow: initial;
+}
+
+.MuiDialogContent-root {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.MuiDialog-container .MuiPaper-root {
+  width: 100%;
+  border-radius: 0;
+  margin: 0;
+  max-height: 100%;
+  background-color: #f8f9fa !important;
+}
+
+.MuiDialog-container .MuiPaper-root form > div > div {
+  max-width: 70rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.MuiDialog-container .MuiPaper-root form > div > div > div {
+  margin-bottom: 32px;
+  background-color: #fff !important;
+  padding: 24px;
+  border-radius: 24px;
+}
+
+.MuiDialog-container .MuiPaper-root form > div > div > div:nth-child(2n) {
+  width: calc(25% - 24px);
+}
+
+.MuiDialog-container .MuiPaper-root form > div > div > div:nth-child(2n + 1) {
+  width: calc(75% - 24px);
+}
+
+.MuiDialog-container .MuiPaper-root form > div > div > div:first-child,
+.MuiDialog-container
+  .MuiPaper-root
+  form
+  > div
+  > div
+  > div:nth-last-child(-n + 3) {
+  width: 100%;
+}
+
+.MuiDialog-container .MuiPaper-root form > div + div > div > div:last-child {
+  width: 100%;
+  background-color: #f5f1f1 !important;
+}
