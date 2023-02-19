@@ -5,7 +5,7 @@ I wasn't too happy with Charthop's UX so I tried to fix it up.
 
 ## How to Install
 
-1. Download the latest zip file from the releases page the to a good location (i.e. documents)
+1. Download the [latest zip file](/ajatamayo/better-charthop-ux/releases/latest/download/archive.zip) from the releases page the to a good location (i.e. documents)
 2. Extract the zip file into a folder
 3. In Chrome, go to `chrome://extensions` (type it in the browser)
 4. Turn on developer mode at the upper right corner
