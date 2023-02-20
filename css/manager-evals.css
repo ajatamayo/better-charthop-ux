@@ -49,21 +49,29 @@
   border-radius: 24px;
 }
 
-.MuiDialog-container .MuiPaper-root form > div > div > div:nth-child(2n) {
+.MuiDialog-container [aria-labelledby="dialog-manager-evaluations"] form > div > div > div:nth-child(2n) {
   width: calc(25% - 24px);
 }
 
-.MuiDialog-container .MuiPaper-root form > div > div > div:nth-child(2n + 1) {
+.MuiDialog-container [aria-labelledby="dialog-manager-evaluations"] form > div > div > div:nth-child(2n + 1) {
   width: calc(75% - 24px);
 }
 
-.MuiDialog-container .MuiPaper-root form > div > div > div:first-child,
+.MuiDialog-container [aria-labelledby="dialog-manager-evaluations"] form > div > div > div:first-child,
 .MuiDialog-container
-  .MuiPaper-root
+  [aria-labelledby="dialog-manager-evaluations"]
   form
   > div
   > div
   > div:nth-last-child(-n + 3) {
+  width: 100%;
+}
+
+.MuiDialog-container [aria-labelledby="dialog-colleague-evaluations"] form > div > div > div {
+  width: calc(50% - 24px);
+}
+
+.MuiDialog-container [aria-labelledby="dialog-colleague-evaluations"] form > div > div > div:first-child {
   width: 100%;
 }
 
