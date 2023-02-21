@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Charthop Better UX",
-    "version": "1.0",
+    "version": "1.0.1",
     "description": "Charthop Better UX for TM's 2023 Evals",
     "action": {
         "default_title": "Charthop Better UX",
