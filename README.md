@@ -4,6 +4,12 @@ I wasn't too happy with Charthop's UX! So I made a **Chrome Extension** that mod
 
 ## How to Install
 
+### Option 1 (Preferred)
+
+1. Install via [Chrome Web Store](https://chrome.google.com/webstore/detail/epgekehiceihcfglgaffilhphbcjliaf).
+
+### Option 2
+
 1. Download the [latest zip file](/../../releases/latest/download/archive.zip) from the releases page to a good location (i.e. documents)
 2. Extract the zip file into a folder
 3. In Chrome, go to `chrome://extensions` (type it in the browser)
