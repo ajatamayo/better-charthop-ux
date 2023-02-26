@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Charthop Better UX",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Charthop Better UX for TM's 2023 Evals",
     "action": {
         "default_title": "Charthop Better UX",
@@ -15,16 +15,8 @@
     },
     "content_scripts": [
         {
-          "matches": ["https://app.charthop.com/tmds/person/*"],
-          "css": ["css/manager-evals.css"]
-        },
-        {
-          "matches": ["https://app.charthop.com/tmds/person/*/performance-evaluation*"],
-          "css": ["css/self-colleague-evals.css"]
-        },
-        {
-          "matches": ["https://app.charthop.com/tmds/person/*addendum-performance-evaluation*"],
-          "css": ["css/addendum.css"]
+          "matches": ["https://app.charthop.com/*"],
+          "css": ["css/manager-evals.css", "css/self-colleague-evals.css", "css/addendum.css"]
         }
     ]
 }

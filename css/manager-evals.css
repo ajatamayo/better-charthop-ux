@@ -79,3 +79,10 @@
   width: 100%;
   background-color: #f5f1f1 !important;
 }
+
+/* Larger text area */
+[id^=rich-text-input] > div + div[class^=jss] {
+  height: 25vh !important;
+  min-height: 240px;
+  line-height: 1rem;
+}
